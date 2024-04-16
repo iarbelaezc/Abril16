@@ -34,9 +34,7 @@ if img_file_buffer is not None:
     if prediction[0][0]>0.3:
       st.header('Isa Seria, con Probabilidad: '+str( prediction[0][0]) )
     if prediction[0][1]>0.3:
-      st.header('Isa sonriente, con Probabilidad: '+str( prediction[0][1]))
-    if prediction[0][2]>0.3:
-      st.header('Isa con brillito, con Probabilidad: '+str( prediction[0][2]))
+      st.header('Brillo, con Probabilidad: '+str( prediction[0][1]))
     #if prediction[0][2]>0.5:
     # st.header('Derecha, con Probabilidad: '+str( prediction[0][2]))
 
